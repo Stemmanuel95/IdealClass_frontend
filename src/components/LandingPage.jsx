@@ -19,7 +19,7 @@ const Homepage = () => {
       <section className="hero">
         <h2>Your Collaborative Learning Hub</h2>
         <div className="Description">
-          <img className="image-container"src="/src/Assets/edu.jpg" alt="homepage image" />
+          <img className="image-container"src="/src/assets/edu.jpg" alt="homepage image" />
           <p className="Paragraph">The IdealClass LMS web application is a comprehensive platform designed to streamline the management, delivery and tracking of educational courses and materials.</p>          
           <a href="#features" className="btn">Get Started</a>
         </div>
@@ -30,7 +30,7 @@ const Homepage = () => {
     </div>
       <section className="features">
         <div className="elementsid">
-          <img className="image-container" src="/src/Assets/accesstomaterials.jpg" alt="Feature-1" />
+          <img className="image-container" src="/src/assets/accesstomaterials.jpg" alt="Feature-1" />
           <p>Seamless sharing of Resources</p>
           <button className='btn'>More info</button>
         </div>
