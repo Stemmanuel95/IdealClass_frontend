@@ -1,7 +1,7 @@
 #root {
-  max-width: 1280px;
+  max-width: fit-content;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 1rem;
   text-align: center;
 }
 
@@ -39,4 +39,133 @@
 
 .read-the-docs {
   color: #888;
+}
+
+/* Styling for landing page */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  /* background-color: blue; */
+}
+
+.header {
+  background-color:#313958;
+  color: #fff;
+  /* /padding: 5px; */
+  text-align: center;
+}
+
+.header nav ul {
+  /* list-style-type: none; */
+  padding: 10px 25px;
+  text-align: right;
+  font-size: 20px;
+  
+}
+
+.header nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.header nav ul li a:hover {
+  background-color:#FDC93B;
+}
+
+.hero {
+  background-color: #f2f2f2;
+  width: 100%;
+  padding: 50px 20px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.hero h2 {
+  font-size: 3.5rem;
+}
+
+.btn {
+  background-color: orange;
+  color: black;
+  padding: 10px 20px;
+  text-decoration: none;
+  margin-top: 20px;
+  display: inline-block;
+}
+
+.Description > .btn{
+  text-align: left;
+}
+
+/* #Description img p {
+  background-color: #12063b;
+}
+
+.Paragraph {
+  background-color: lightblue;
+  padding: 10px;
+} */
+
+.features {
+  display: inline;
+  justify-content: space-around;
+  align-items: center;
+  padding: 50px 20px;
+  font-size: 20px;
+}
+
+.feature {
+  flex: 1;
+  text-align: center;
+}
+
+.core-features {
+  font-style: italic;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 32px;
+
+}
+
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  /* padding: 20px; */
+  margin-top: 80%;
+}
+
+.Description {
+  display:inline;
+  margin: 20px;
+
+}
+
+.Description p {
+  font-size: 22px;
+  text-align: left;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 50px 50px 0 50px;
+  background-color: #faf9f6;
+  display: flex;
+  flex-direction: column;
+  min-height: 95vh;
+}
+
+.image-container {
+  float: right;
+  width: 600px;
+  margin-left: 20px;
+  border-radius: 20px;
+}
+
+.features {
+  float: left;
+  width: 50%;
+  margin-left: 20px;
+  border-radius: 80px;
+  /* background-color: orange; */
 }
