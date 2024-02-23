@@ -1,4 +1,5 @@
 import React from "react";
+
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Homepage from "./components/LandingPage";
@@ -18,5 +19,3 @@ const App = () => {
 };
 
 export default App;
-
-
