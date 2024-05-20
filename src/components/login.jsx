@@ -31,7 +31,7 @@ const Login = () => {
             <form method="POST" action="#">
               <div className="mt-6">
                 <label
-                  for="email"
+                  htmlFor="email"
                   className="block text-sm font-medium leading-5  text-gray-700"
                 >
                   Email address
@@ -53,18 +53,18 @@ const Login = () => {
                       viewBox="0 0 20 20"
                     >
                       <path
-                        fill-rule="evenodd"
+                        fillRule="evenodd"
                         d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7 4a1 1 0 11-2 0 1 1 0 012 0zm-1-9a1 1 0 00-1 1v4a1 1 0 102 0V6a1 1 0 00-1-1z"
-                        clip-rule="evenodd"
+                        clipRule="evenodd"
                       ></path>
                     </svg>
                   </div>
                 </div>
               </div>
 
-              <div class="mt-6">
+              <div className="mt-6">
                 <label
-                  for="password"
+                  htmlFor="password"
                   className="block text-sm font-medium leading-5 text-gray-700"
                 >
                   Password
@@ -92,7 +92,7 @@ const Login = () => {
                     className="form-checkbox h-4 w-4 text-indigo-600 transition duration-150 ease-in-out"
                   />
                   <label
-                    for="remember_me"
+                    htmlFor="remember_me"
                     className="ml-2 block text-sm leading-5 text-gray-900"
                   >
                     Remember me
