@@ -31,12 +31,12 @@ const Signup = () => {
             <form method="POST" action="#">
               <div>
                 <label
-                  for="email"
+                  htmlFor="email"
                   className="block text-sm font-medium leading-5  text-gray-700"
                 >
                   First Name
                 </label>
-                <div class="mt-1 relative rounded-md shadow-sm">
+                <div className="mt-1 relative rounded-md shadow-sm">
                   <input
                     id="name"
                     name="name"
@@ -52,9 +52,9 @@ const Signup = () => {
                       viewBox="0 0 20 20"
                     >
                       <path
-                        fill-rule="evenodd"
+                        fillRule="evenodd"
                         d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7 4a1 1 0 11-2 0 1 1 0 012 0zm-1-9a1 1 0 00-1 1v4a1 1 0 102 0V6a1 1 0 00-1-1z"
-                        clip-rule="evenodd"
+                        clipRule="evenodd"
                       ></path>
                     </svg>
                   </div>
@@ -63,7 +63,7 @@ const Signup = () => {
 
               <div className="mt-6">
                 <label
-                  for="email"
+                  htmlFor="email"
                   className="block text-sm font-medium leading-5  text-gray-700"
                 >
                   Last Name
@@ -84,9 +84,9 @@ const Signup = () => {
                       viewBox="0 0 20 20"
                     >
                       <path
-                        fill-rule="evenodd"
+                        fillRule="evenodd"
                         d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7 4a1 1 0 11-2 0 1 1 0 012 0zm-1-9a1 1 0 00-1 1v4a1 1 0 102 0V6a1 1 0 00-1-1z"
-                        clip-rule="evenodd"
+                        clipRule="evenodd"
                       ></path>
                     </svg>
                   </div>
@@ -95,7 +95,7 @@ const Signup = () => {
 
               <div className="mt-6">
                 <label
-                  for="email"
+                  htmlFor="email"
                   className="block text-sm font-medium leading-5  text-gray-700"
                 >
                   Email address
@@ -117,18 +117,18 @@ const Signup = () => {
                       viewBox="0 0 20 20"
                     >
                       <path
-                        fill-rule="evenodd"
+                        fillRule="evenodd"
                         d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7 4a1 1 0 11-2 0 1 1 0 012 0zm-1-9a1 1 0 00-1 1v4a1 1 0 102 0V6a1 1 0 00-1-1z"
-                        clip-rule="evenodd"
+                        clipRule="evenodd"
                       ></path>
                     </svg>
                   </div>
                 </div>
               </div>
 
-              <div class="mt-6">
+              <div className="mt-6">
                 <label
-                  for="password"
+                  htmlFor="password"
                   className="block text-sm font-medium leading-5 text-gray-700"
                 >
                   Password
@@ -148,7 +148,7 @@ const Signup = () => {
 
               <div className="mt-6">
                 <label
-                  for="password_confirmation"
+                  htmlFor="password_confirmation"
                   className="block text-sm font-medium leading-5 text-gray-700"
                 >
                   Confirm Password
@@ -181,7 +181,7 @@ const Signup = () => {
                   className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500  focus:ring-2 dark:bg-gray-700 "
                 />
                 <label
-                  for="default-radio-1"
+                  htmlFor="default-radio-1"
                   className="ms-2 text-sm font-medium text-gray-700 block leading-5 "
                 >
                   Teacher
@@ -198,7 +198,7 @@ const Signup = () => {
                   className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500   focus:ring-2 "
                 />
                 <label
-                  for="default-radio-2"
+                  htmlFor="default-radio-2"
                   className="ms-2 text-sm font-medium text-gray-700 block leading-5 "
                 >
                   Student

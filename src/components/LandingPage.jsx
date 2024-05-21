@@ -25,9 +25,9 @@ const Homepage = () => {
         </div>
       </section>
 
-    <div>
-    <h1 className="core-features">FEATURES</h1>
-    </div>
+      <div>
+        <h1 className="core-features">FEATURES</h1>
+      </div>
       <section className="features">
         <div className="elementsid">
           <img className="image-container" src="/src/assets/accesstomaterials.jpg" alt="Feature-1" />
