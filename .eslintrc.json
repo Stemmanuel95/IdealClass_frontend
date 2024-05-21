@@ -1,4 +1,13 @@
 {
+  "env": {
+    "browser": true,
+    "node": true,
+    "es6": true
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended"
+  ],
   "parserOptions": {
     "ecmaVersion": 2020,
     "sourceType": "module",
@@ -6,20 +15,13 @@
       "jsx": true
     }
   },
-  "env": {
-    "browser": true,
-    "node": true,
-    "es6": true
-  },
   "settings": {
     "react": {
       "version": "detect"
-    }
+    },
+    "exclude": ["dist/*", "node_modules/*"]
+
   },
-  "extends": [
-    "eslint:recommended",
-    "plugin:react/recommended"
-  ],
   "plugins": [
     "react"
   ],
@@ -29,6 +31,6 @@
     "linebreak-style": ["error", "unix"],
     "quotes": ["error", "double"],
     "semi": ["error", "always"],
-    "no-console": "off"
+    "no-console": "warn"
   }
 }
